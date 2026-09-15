@@ -35,7 +35,7 @@
     "tailwindcss": "^4.1.13",
     "typescript": "~6.0.3"
   },
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.ts",
   "pnpm": {
     "overrides": {
       "lightningcss": "1.30.1"
