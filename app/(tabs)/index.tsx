@@ -1,10 +1,14 @@
 import '../../global.css';
 import { View, Text, Image } from 'react-native';
 import { Link } from 'expo-router';
+import { styled } from 'nativewind';
+import { SafeAreaView as RNSafeAreaView } from 'react-native-safe-area-context';
+
+const SafeAreaView = styled(RNSafeAreaView);
 
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-slate-50 px-4">
+    <SafeAreaView className='flex-1 bg-background p-5'>
       <View className="mb-6 w-full px-2">
         <Text className="text-center text-2xl font-black text-slate-800">This is Home page</Text>
         <Text className="mt-1 text-center text-sm font-medium text-slate-500">
@@ -31,6 +35,6 @@ export default function App() {
           </Link>
         </View>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
