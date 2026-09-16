@@ -40,7 +40,7 @@
     "tailwindcss": "4.1.12",
     "typescript": "~6.0.3"
   },
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "overrides": {
     "lightningcss": "1.30.1"
   },

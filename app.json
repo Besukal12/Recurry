@@ -3,6 +3,7 @@
     "name": "Recurrly",
     "slug": "recurrly",
     "version": "1.0.0",
+    "scheme": "your-app-scheme",
     "web": {
       "favicon": "./assets/favicon.png"
     },
