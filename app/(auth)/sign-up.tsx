@@ -6,6 +6,7 @@ const SignUp = () => {
     <View className='w-full h-screen flex justify-center items-center'>
       <Text>sign-in</Text>
       <Link href="/(auth)/sign-in">login to account</Link>
+      <Link href='/'>home</Link>
     </View>
   );
 };
