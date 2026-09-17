@@ -34,7 +34,7 @@ export default function App() {
             {dayjs(HOME_BALANCE.nextRenewalDate).format('MM/DD')}
           </Text>
         </View>
-      </View>
+        </View>
 
       <View className="">
         <ListHeading title="Upcoming" />
