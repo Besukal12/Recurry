@@ -19,7 +19,8 @@
         }
       ],
       "expo-router",
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-font"
     ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
