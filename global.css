@@ -600,6 +600,10 @@
     @apply font-sans-bold text-accent text-sm;
   }
 
+  .auth-home-link {
+    @apply font-sans-semibold text-muted-foreground mt-6 self-center text-sm underline;
+  }
+
   .modal-overlay {
     @apply flex-1 bg-black/50;
   }
